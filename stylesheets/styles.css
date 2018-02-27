@@ -66,6 +66,7 @@ a{
 .thumbnail-list {
   flex: 0 1 auto;
   order: 2;
+  align-content: center;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -102,6 +103,7 @@ a{
 .detail-image-frame {
   position: relative;
   text-align: center;
+  display: flex;
 }
 
 .detail-image {
@@ -116,5 +118,11 @@ a{
   font-family: airstreamregular;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+  font-size: 40px;
+}
+
+.detail-image-button {
+  background-color: transparent;
+  border: none;
   font-size: 40px;
 }
